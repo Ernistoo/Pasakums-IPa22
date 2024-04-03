@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.anal {
+    float: left;
+}
+
+.anal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.anal a:hover {
+    background-color: #111;
+}
+
+body{
+    margin:0;
+    
+}
+.mjau {
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+}

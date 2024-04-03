@@ -18,7 +18,7 @@ if (isset($_GET["id"]) && $_GET["id"] != "") {
 //     $query_string .= " JOIN categories ON posts.category_id = categories.id WHERE categories.name=:category";
 //     $params[":category"] = $_GET["category"];
 // }
-$posts = $db->execute($query_string, $params);
+$pasakumi = $db->execute($query_string, $params);
 
 $page_title = "Pasakumi";
 
